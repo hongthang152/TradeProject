@@ -21,7 +21,7 @@ var express     = require("express"),
 var url = process.env.DATABASEURL;
 mongoose.connect(url || "mongodb://localhost/yelp_camp_v6"); //mongodb://localhost/yelp_camp_v6 
 
-process.env.databaseURL
+process.env.databaseURLDATA
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
